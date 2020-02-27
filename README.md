@@ -14,4 +14,7 @@ $ php phpunit-nightly.phar --version
 
 Alternatively, you may use [Composer](https://getcomposer.org/) to download and install PHPUnit as well as its dependencies. Please refer to the "[Getting Started](https://phpunit.de/getting-started-with-phpunit.html)" guide for details on how to install PHPUnit.
 
-Command to install PHPUnit: $ php composer.phar require --dev phpunit/phpunit ^9
+Command to install PHPUnit: 
+``` bash
+$ php composer.phar require --dev phpunit/phpunit ^9
+```
