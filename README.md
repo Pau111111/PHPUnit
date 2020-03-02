@@ -18,3 +18,10 @@ Command to install PHPUnit:
 ``` bash
 $ php composer.phar require --dev phpunit/phpunit ^9
 ```
+
+Commands to execute PHPUnit operations:
+
+You must tell with the command what class you will use in the test file
+``` bash
+$ ./vendor/bin/phpunit --bootstrap ./Util.php ./tests/UtilTest.php --color
+```
