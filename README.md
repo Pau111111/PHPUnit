@@ -33,7 +33,13 @@ $ php composer.phar require --dev phpunit/phpunit ^9
 
 Commands to execute PHPUnit operations:
 
-You must tell with the command what class you will use in the test file
+You must tell with the command what class you will use in the test file (you don't need to do the include the "Util.php" file into "UtilTest.php")
 ``` bash
 $ ./vendor/bin/phpunit --bootstrap ./app/Util.php ./tests/app/UtilTest.php --color
 ```
+
+or you can include the "Util.php" file into the "UtilTest.php" code and run this command. 
+```bash
+./vendor/bin/phpunit tests
+```
+The "tests" part of the command is the folder or the file that you want to do the tests
