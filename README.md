@@ -38,8 +38,9 @@ You must tell with the command what class you will use in the test file (you don
 $ ./vendor/bin/phpunit --bootstrap ./app/Util.php ./tests/app/UtilTest.php --color
 ```
 
-or you can include the "Util.php" file into the "UtilTest.php" code and run this command. 
+or you can include/path to the "Util.php" file into the "UtilTest.php" code and run this command. 
 ```bash
 ./vendor/bin/phpunit tests
 ```
+(path example: new \App\Models\Util)
 The "tests" part of the command is the folder or the file that you want to do the tests
